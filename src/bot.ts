@@ -21,9 +21,9 @@ const reconnect = async (): Promise<void> => {
 
 const createBot = (): void => {
 	bot = Mineflayer.createBot({
-		host: CONFIG.client.host,
-		port: +CONFIG.client.port,
-		username: CONFIG.client.username
+		host:Projekt_Insel.aternos.me
+		port: 44345
+		username: heyNoahYT2
 	} as const);
 
 
